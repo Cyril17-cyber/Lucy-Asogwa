@@ -1,0 +1,20 @@
+.casestudy {
+    img {width: 80%;}
+    .top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    padding: 30px 35px;
+    h1 {color: #2e2e2e}
+    .listitem {
+        margin-left: 2rem;
+    }
+    .extra {
+        .list {
+            display: flex;
+            align-items: center;
+        }
+    }
+}

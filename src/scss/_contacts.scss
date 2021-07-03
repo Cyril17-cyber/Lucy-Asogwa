@@ -1,0 +1,20 @@
+.contacts {
+    padding: 30px 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h2 {color: #2e2e2e}
+    img {
+        margin-bottom: 30px;
+        width: 40vw;
+    }
+    a {
+        text-decoration: none;
+        font-weight: 700;
+        color: #2e2e2e;
+        transition: all 300ms ease-in-out;
+        &:hover {
+            color: #000000;
+        }
+    }
+}
